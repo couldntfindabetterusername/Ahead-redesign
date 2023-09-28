@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { sliderData } from "@/constants/sliderData";
 import Card from "./Card";
+import UI_Image from "../UI_Image/UI_Image";
 
 const Slider = () => {
   return (
@@ -33,7 +33,7 @@ const Slider = () => {
           transition={{ duration: 1.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <Image
+          <UI_Image
             src="/assets/boo.svg"
             width={100}
             height={100}

@@ -2,7 +2,7 @@ export const sliderData = [
   {
     heading: "You argue with a colleague no don't argue",
     info: "You get angry and defensive, instead of staying open and working towards common ground",
-    bg: "#EFEBFF",
+    bg: "[#EFEBFF]",
     emoji: require("../../public/assets/emoji/proud.png"),
   },
   {
